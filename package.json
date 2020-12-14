@@ -1,16 +1,17 @@
 {
   "name": "@sbc-fe/vconsole-webpack-plugin",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "webpack plugin for vConsole",
   "main": "index.js",
   "typings": "./types.d.ts",
   "scripts": {
+    "pu": "npm publish --access=public",
     "lint": "eslint index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/diamont1001/vconsole-webpack-plugin.git"
+    "url": "git+https://github.com/lanten/vconsole-webpack-plugin.git"
   },
   "keywords": [
     "webpack",
@@ -19,12 +20,12 @@
     "vConsole",
     "vconsole"
   ],
-  "author": "diamont1001",
+  "author": "lanten",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/diamont1001/vconsole-webpack-plugin/issues"
+    "url": "https://github.com/lanten/vconsole-webpack-plugin/issues"
   },
-  "homepage": "https://github.com/diamont1001/vconsole-webpack-plugin#readme",
+  "homepage": "https://github.com/lanten/vconsole-webpack-plugin#readme",
   "dependencies": {
     "vconsole": "^3.3.4"
   },
