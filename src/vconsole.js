@@ -1,3 +1,5 @@
-var VConsole = require('vconsole');
+/* eslint-disable */
 
-window.vConsole === undefined && (window.vConsole = new VConsole());
+var VConsole = require('vconsole')
+
+window.vConsole === undefined && (window.vConsole = new VConsole())

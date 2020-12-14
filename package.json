@@ -1,8 +1,9 @@
 {
-  "name": "vconsole-webpack-plugin",
-  "version": "1.5.2",
+  "name": "@sbc-fe/vconsole-webpack-plugin",
+  "version": "0.0.1",
   "description": "webpack plugin for vConsole",
   "main": "index.js",
+  "typings": "./types.d.ts",
   "scripts": {
     "lint": "eslint index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
